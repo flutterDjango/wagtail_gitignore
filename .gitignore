@@ -1,0 +1,93 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+
+
+# Logs
+*.log
+
+# Médias et statiques
+media/
+staticfiles/
+original_images/
+
+# Migrations (optionnel)
+*/migrations/*
+!*/migrations/__init__.py
+
+# Tests et couverture
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Temporaires et sauvegardes
+*.bak
+*~
+*.swp
+.DS_Store
+
+# Outils spécifiques
+.mypy_cache/
+.dmypy.json
+.pyre/
+celerybeat-schedule
+celerybeat.pid
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Node.js (si utilisé)
+node_modules/
+npm-debug.log*
+
+# Déploiement
+*.pid
+*.sock
+
+# Spécifique à Wagtail
+wagtail.egg-info/
+storybook-static/
+wagtail/tests/test-media/
+
+# Fichiers de configuration sensibles
+.env
+*.env
+*.envrc
+local_settings.py
+config.ini
+secrets.ini
+credentials.json
+
+
+# Bases de données locales
+db.sqlite3
+db.sqlite3-journal
+*.db
+*.dump
+pgdata/
+
+
+# Scripts SQL ou fichiers temporaires
+*.sql
