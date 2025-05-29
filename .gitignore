@@ -39,6 +39,7 @@ original_images/
 .pytest_cache/
 htmlcov/
 .tox/
+pytest.ini
 
 # Temporaires et sauvegardes
 *.bak
