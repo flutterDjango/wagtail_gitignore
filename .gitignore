@@ -19,6 +19,8 @@ env/
 venv/
 ENV/
 
+# Fichiers compressés
+*.tar
 
 # Logs
 *.log
