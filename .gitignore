@@ -20,10 +20,6 @@ venv/
 ENV/
 
 
-# Ignore les diagrammes
-uml/
-UML/
-
 # Fichiers compressés
 *.tar
 
