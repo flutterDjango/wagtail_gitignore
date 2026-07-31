@@ -23,6 +23,12 @@ ENV/
 # Fichiers compressés
 *.tar
 
+
+# backup BDD
+/backups/
+/backup/logs/
+
+
 # Logs
 *.log
 
